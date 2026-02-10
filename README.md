@@ -47,14 +47,20 @@ JDBC Driver: MySQL Connector/J
 
 # Test Scenarios
    User Registration Flow
+   
    Product Search & Filter
+   
    Cart Operations
+   
    Checkout Process
+   
    Admin Product Management
+   
    Order Processing Workflow
 
  # Future Enhancements
    Planned Features
+   
    Payment gateway integration (Razorpay/PayPal)
    Email notifications
    Product reviews and ratings
