@@ -1,74 +1,55 @@
 # Online-Shopping-Project
-A full-featured E-commerce web application built using Java JSP, Servlet, JDBC, and MySQL. This project provides a complete online shopping platform with user management, product catalog, shopping cart, order processing, and admin dashboard.
+A dynamic and full-featured E-Commerce web application developed using JSP, JDBC, MySQL, and Apache Tomcat Server. This project demonstrates a complete online shopping system with user and admin functionalities, built using core Java web technologies without any external frameworks.
 
 # Technology Stack
-Frontend: HTML, CSS, JavaScript, JSP, Bootstrap
-
-Backend: Java, JSP, Servlets
+ 
+ HTML, CSS, JSP, Bootstrap
 
 Database: MySQL 8.0
-
+ 
 Server: Apache Tomcat
 
 JDBC Driver: MySQL Connector/J
 
-# Key Features Implemented
+# Features
 
-1. User Authentication & Management
-    User Registration with security questions
-   
-    Login/Logout functionality
-   
-    Password recovery system
-   
-    Session management
-   
-    User profile management
-   
+#  User Module
 
-3. Shopping Features
-    Product catalog with categories
-   
-    Add to cart functionality
-   
-    Quantity management (increase/decrease)
-   
-    Shopping cart with total calculation
-   
-    Checkout process
+User Registration & Login Authentication
 
-5. Order Management
-    Order placement
-   
-    Address management
-   
-    Multiple payment methods (COD/Online)
-   
-    Order tracking
-   
-    Order history
+Browse Product Catalog
 
-7. Admin Dashboard
-    Product management (CRUD operations)
-   
-    Order processing (Received/Canceled/Delivered)
-   
-    Customer message management
-   
-    User management
-   
-    Sales monitoring
+Add to Cart Functionality
 
-9. Security Features
-    SQL injection prevention (Prepared Statements)
-   
-    Session validation
-   
-    Password encryption
-   
-    Secure authentication
-   
-    Input validation
+Update / Remove Cart Items
+
+Place Orders
+
+Order History Tracking
+
+Profile Management
+
+# Admin Module
+
+Admin Login
+
+Add / Update / Delete Products
+
+Manage Orders
+
+View Registered Users
+
+Update Order Status (Delivered / Cancel)
+
+# Database Integration
+
+MySQL database for data storage
+
+JDBC for database connectivity
+
+Proper relational table structure
+
+Secure query handling using Prepared Statements
 
 # Test Scenarios
    User Registration Flow
@@ -84,25 +65,16 @@ JDBC Driver: MySQL Connector/J
    Order Processing Workflow
 
  # Future Enhancements
-   Planned Features
-   
-   Payment gateway integration (Razorpay/PayPal)
-   
-   Email notifications
-   
-   Product reviews and ratings
-   
-   Wishlist functionality
-   
-   Advanced search with filters
-   
-   Order tracking with real-time updates
-   
-   Mobile-responsive design
-   
-   PDF invoice generation
-   
-   Analytics dashboard
+  
+Payment Gateway Integration
+
+Email Notification System
+
+Product Search & Filters
+
+REST API Integration
+
+Spring Boot Migration
 
 # Technical Improvements
   Implement Hibernate for ORM
